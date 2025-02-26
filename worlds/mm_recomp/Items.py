@@ -132,6 +132,11 @@ item_data_table: Dict[str, MMRItemData] = {
         code=0x346942004006B,
         type=ItemClassification.progression
     ),
+    "Bombers' Notebook": MMRItemData(
+        code=0x346942004006D,
+        type=ItemClassification.useful,
+        can_create=lambda options: False
+    ),
     "Deku Mask": MMRItemData(
         code=0x3469420000078,
         type=ItemClassification.progression
